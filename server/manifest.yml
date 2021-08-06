@@ -1,11 +1,11 @@
   applications:
-  - name: djangoapp
+  - name: djangoapp-arkleonpro
     routes:
-      - route: $HOST.$DOMAIN
+      - route: djangoapp-arkleonpro.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx
+  - name: djangoapp-nginx-arkleonpro
     routes:
-      - route: $HOST.$DOMAIN/static
+      - route: djangoapp-arkleonpro.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
