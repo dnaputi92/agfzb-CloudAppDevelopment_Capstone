@@ -1,11 +1,11 @@
   applications:
-  - name: dnaputi92
+  - name: dnaputi92djangoapp
     routes:
-      - route: dnaputi92.mybluemix.net
+      - route: dnaputi92djangoapp.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx-dnaputi92
+  - name: djangoapp-nginx-dnaputi92djangoapp
     routes:
-      - route: dnaputi92.mybluemix.net/static
+      - route: dnaputi92djangoapp.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
