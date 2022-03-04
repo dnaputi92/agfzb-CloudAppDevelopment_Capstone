@@ -27,7 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["localhost", '127.0.0.1', "djangoapp-arkleonpro.mybluemix.net"]
+ALLOWED_HOSTS = ["localhost", '127.0.0.1', " dnaputi92.mybluemix.net"]
 
 
 # Application definition

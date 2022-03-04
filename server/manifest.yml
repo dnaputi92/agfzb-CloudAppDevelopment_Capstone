@@ -1,11 +1,11 @@
   applications:
-  - name: djangoapp-arkleonpro
+  - name: dnaputi92
     routes:
-      - route: djangoapp-arkleonpro.mybluemix.net
+      - route: dnaputi92.mybluemix.net
     memory: 128M
     buildpack: python_buildpack
-  - name: djangoapp-nginx-arkleonpro
+  - name: djangoapp-nginx-dnaputi92
     routes:
-      - route: djangoapp-arkleonpro.mybluemix.net/static
+      - route: dnaputi92.mybluemix.net/static
     memory: 128M
     buildpack: staticfile_buildpack
