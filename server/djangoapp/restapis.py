@@ -156,11 +156,11 @@ def analyze_review_sentiments(review_text):
     # Watson NLU configuration
     try:
         if os.environ['env_type'] == 'PRODUCTION':
-            url = os.environ['WATSON_NLU_URL']
-            api_key = os.environ["WATSON_NLU_API_KEY"]
+            url = os.environ['https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/b6f210bf-3ea1-4c3a-8245-e1e57c0d7eaa']
+            api_key = os.environ["IhqzGCZvSGWFHjGyaKVT-6yuEUBYynUwitGeCm3ZcJo9"]
     except KeyError:
-        url = config('WATSON_NLU_URL')
-        api_key = config('WATSON_NLU_API_KEY')
+        url = config('https://api.us-south.natural-language-understanding.watson.cloud.ibm.com/instances/b6f210bf-3ea1-4c3a-8245-e1e57c0d7eaa')
+        api_key = config('IhqzGCZvSGWFHjGyaKVT-6yuEUBYynUwitGeCm3ZcJo9')
 
     version = '2021-08-01'
     authenticator = IAMAuthenticator(api_key)
