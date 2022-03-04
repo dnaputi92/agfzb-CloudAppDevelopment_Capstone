@@ -16,7 +16,7 @@ def get_request(url, api_key=False, **kwargs):
         # Basic authentication GET
         try:
             response = requests.get(url, headers={'Content-Type': 'application/json'},
-                                    params=kwargs, auth=HTTPBasicAuth('apikey', api_key))
+                                    params=kwargs, auth=HTTPBasicAuth('IhqzGCZvSGWFHjGyaKVT-6yuEUBYynUwitGeCm3ZcJo9', api_key))
         except:
             print("An error occurred while making GET request. ")
     else:
